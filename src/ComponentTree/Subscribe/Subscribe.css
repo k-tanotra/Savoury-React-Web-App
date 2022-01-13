@@ -1,0 +1,46 @@
+.Subscribe {
+  background-color: powderblue;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Chela One;
+  font-size: 40px;
+}
+
+.Inputs {
+  display: flex;
+  flex-direction: row;
+}
+
+.Inputs input {
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 20pt;
+  border: slategrey;
+  outline: none;
+}
+
+input:focus {
+  background-color: skyblue;
+}
+
+.Inputs button {
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20pt;
+  outline: none;
+  background-color: sandybrown;
+  font-family: Chela One;
+  font-size: 30px;
+}
+
+.Inputs button:hover {
+  background-color: darkslategrey;
+  transition: 0.5s;
+}

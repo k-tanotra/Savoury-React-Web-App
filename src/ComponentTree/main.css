@@ -1,0 +1,28 @@
+.MainBody {
+  margin: 200px;
+  padding: 0;
+  display: grid;
+  font-family: monospace;
+  grid-template-columns: 1fr 2fr 3fr 3fr;
+  grid-template-rows: 100px 100px;
+  grid-template-areas:
+    ". Uni . ."
+    ". CS . .";
+}
+.Uni {
+  display: grid;
+  color: #e3ecee;
+  grid-area: Uni;
+  font-size: 25px;
+  justify-items: center;
+  align-content: center;
+}
+
+.CS {
+  display: grid;
+  color: #e3ecee;
+  grid-area: CS;
+  font-size: 25px;
+  justify-items: center;
+  align-content: center;
+}

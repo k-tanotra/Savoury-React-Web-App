@@ -1,0 +1,53 @@
+.Recepies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.HorizontalScroll {
+  display: flex;
+  background-color: turquoise;
+  align-items: center;
+  overflow-x: auto;
+  width: 1000px;
+  white-space: nowrap;
+  /* margin: 0 auto; */
+  transition: 0.4s;
+  scroll-behavior: smooth;
+}
+
+.Box {
+  flex: 1 0 auto;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  background-color: darkkhaki;
+}
+
+.HorizontalScroll::-webkit-scrollbar {
+  display: none;
+}
+
+.Prev_next {
+  margin: 20px;
+  padding: 30px;
+  border-radius: 30px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.Recepies_head {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: Chela One;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  color: black;
+}
